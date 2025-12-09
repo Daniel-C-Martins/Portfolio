@@ -27,8 +27,8 @@ export function Navbar() {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               <Link to="/" className="text-zinc-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">{t('navbar.home')}</Link>
-              <Link to="/projetos" className="text-zinc-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">{t('navbar.projects')}</Link>
-              <Link to="/sobre" className="text-zinc-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">{t('navbar.about')}</Link>
+              <Link to="/projects" className="text-zinc-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">{t('navbar.projects')}</Link>
+              <Link to="/about" className="text-zinc-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">{t('navbar.about')}</Link>
             </div>
           </div>
 
@@ -64,18 +64,26 @@ export function Navbar() {
               onClick={() => setIsOpen(false)}
               className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-zinc-800"
             >
-              Home
+              {t('navbar.home')}
             </Link>
             <Link
-              to="/projetos"
+              to="/projects"
               onClick={() => setIsOpen(false)}
               className="block px-3 py-2 rounded-md text-base font-medium text-zinc-300 hover:text-white hover:bg-zinc-800"
             >
-              Projetos
+              {t('navbar.projects')}
+            </Link>
+            <Link
+              to="/about"
+              onClick={() => setIsOpen(false)}
+              className="block px-3 py-2 rounded-md text-base font-medium text-zinc-300 hover:text-white hover:bg-zinc-800"
+            >
+              {t('navbar.about')}
             </Link>
             <div className="flex gap-4 px-3 py-4 border-t border-zinc-800 mt-4">
-              <a href="https://github.com" className="text-zinc-400 hover:text-white"><Github size={24} /></a>
-              <a href="https://linkedin.com" className="text-zinc-400 hover:text-white"><Linkedin size={24} /></a>
+              <LanguageSwitcher />
+              <a href="https://github.com/Daniel-C-Martins" className="text-zinc-400 hover:text-white"><Github size={24} /></a>
+              <a href="https://www.linkedin.com/in/daniel-campos-martins-8b389026a" className="text-zinc-400 hover:text-white"><Linkedin size={24} /></a>
             </div>
           </div>
         </div>

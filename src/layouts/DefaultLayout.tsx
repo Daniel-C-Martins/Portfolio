@@ -8,7 +8,6 @@ export function DefaultLayout() {
       <Navbar />
 
       <main className="pt-16">
-        {/* pt-16 adiciona padding no topo para o conteúdo não ficar escondido atrás da Navbar fixa */}
         <Outlet />
       </main>
 
