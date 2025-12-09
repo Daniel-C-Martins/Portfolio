@@ -13,7 +13,7 @@ export function DefaultLayout() {
       </main>
 
       <footer className="p-8 border-t border-zinc-800 text-center text-sm text-zinc-500 mt-20">
-        &copy; {new Date().getFullYear()} Seu Nome. Feito com React e Tailwind.
+        &copy; {new Date().getFullYear()} Daniel Campos Martins. Feito com React e Tailwind.
       </footer>
     </div>
   );
