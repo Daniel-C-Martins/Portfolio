@@ -11,11 +11,11 @@ export function Home() {
 
   return (
     <div className="min-h-screen bg-zinc-950 text-white flex flex-col">
-      
+
       {/* Seção Principal (Hero) */}
       <div className="flex-grow flex items-center justify-center px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center pt-20">
-          
+
           {/* Coluna da Esquerda: Texto */}
           <div className="text-center lg:text-left">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
@@ -28,15 +28,15 @@ export function Home() {
               {t('home.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <button 
-                onClick={() => navigate('/projetos')}
+              <button
+                onClick={() => navigate('/projects')}
                 className="flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg font-bold text-lg transition-all hover:scale-105 shadow-lg shadow-blue-500/20"
               >
-                {t('hero.cta')} <ArrowRight size={20} />
+                {t('home.viewProjects')} <ArrowRight size={20} />
               </button>
-              <button 
-                onClick={() => navigate('/sobre')}
-                className="flex items-center justify-center gap-2 bg-zinc-800 hover:bg-zinc-700 px-8 py-4 rounded-lg font-bold text-lg transition-all border border-zinc-700"
+              <button
+                onClick={() => navigate('/about')}
+                className="flex items-center just ify-center gap-2 bg-zinc-800 hover:bg-zinc-700 px-8 py-4 rounded-lg font-bold text-lg transition-all border border-zinc-700"
               >
                 {t('navbar.about')}
               </button>
@@ -53,7 +53,7 @@ export function Home() {
 
       {/* Rodapé: Carrossel de Tecnologias */}
       <TechMarquee />
-      
+
     </div>
   );
 }
