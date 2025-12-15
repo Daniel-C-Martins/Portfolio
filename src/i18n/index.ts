@@ -11,10 +11,10 @@ const resources = {
             about: "Sobre"
          },
          home: {
-            welcome: "Bem-vindo ao Meu Portfólio",
-            role: "Desenvolvedor Full Stack",
-            description: "Explore meus projetos e saiba mais sobre mim.",
-            viewProjects: "Ver Projetos"
+            welcome: "Engenharia de Software & Inovação",
+            role: "Desenvolvedor Full Stack & Pesquisador",
+            description: "Unindo arquitetura robusta (DDD, Clean Arch) com Inteligência Artificial. Desenvolvo soluções escaláveis usando Java, Python e React.",
+            viewProjects: "Ver Portfolio"
          },
          projects: {
             title: "Meus",
@@ -76,10 +76,10 @@ const resources = {
             about: "About"
          },
          home: {
-            welcome: "Welcome to My Portfolio",
-            role: "Full Stack Developer",
-            description: "Explore my projects and learn more about me.",
-            viewProjects: "View Projects"
+            welcome: "Software Engineering & Innovation",
+            role: "Full Stack Developer & Researcher",
+            description: "Merging robust architecture (DDD, Clean Arch) with Artificial Intelligence. Building scalable solutions using Java, Python, and React.",
+            viewProjects: "View Portfolio"
          },
          projects: {
             title: "My",

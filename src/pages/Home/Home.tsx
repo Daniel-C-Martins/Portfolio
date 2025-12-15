@@ -2,8 +2,8 @@
 import { ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
-import { TerminalWindow } from '@/components/TerminalWindow'; // Se criar
-import { TechMarquee } from '@/components/TechMarquee';       // Se criar
+import { TerminalWindow } from '@/components/TerminalWindow';
+import { TechMarquee } from '@/components/TechMarquee';   
 
 export function Home() {
   const { t } = useTranslation();
@@ -18,7 +18,7 @@ export function Home() {
 
           {/* Coluna da Esquerda: Texto */}
           <div className="text-center lg:text-left">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">
               {t('home.welcome')} <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-500">
                 {t('home.role')}
@@ -36,7 +36,7 @@ export function Home() {
               </button>
               <button
                 onClick={() => navigate('/about')}
-                className="flex items-center just ify-center gap-2 bg-zinc-800 hover:bg-zinc-700 px-8 py-4 rounded-lg font-bold text-lg transition-all border border-zinc-700"
+                className="flex items-center justify-center gap-2 bg-zinc-800 hover:bg-zinc-700 px-8 py-4 rounded-lg font-bold text-lg transition-all border border-zinc-700"
               >
                 {t('navbar.about')}
               </button>
