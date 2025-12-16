@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 import { TerminalWindow } from '@/components/TerminalWindow';
-import { TechMarquee } from '@/components/TechMarquee';   
+import { TechMarquee } from '@/components/TechMarquee';
 
 export function Home() {
   const { t } = useTranslation();

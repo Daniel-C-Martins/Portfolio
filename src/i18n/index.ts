@@ -45,27 +45,32 @@ const resources = {
          about_page: {
             title: "Sobre",
             subtitle: "Mim",
-            bio_title: "Quem sou eu",
-            bio_text_1: "Sou um desenvolvedor apaixonado por sistemas operacionais, arquitetura de software e soluções robustas. Meu foco está em criar aplicações que não apenas funcionam, mas são escaláveis e eficientes.",
-            bio_text_2: "Quando não estou codando em Java ou configurando kernels Linux, estou estudando métodos formais e novas tecnologias para aprimorar minha caixa de ferramentas.",
-            skills_title: "Tech Stack",
-            timeline_title: "Minha Jornada",
+            bio_title: "Engenharia de Software & Pesquisa",
+            bio_text_1: "Atuo na interseção entre Engenharia de Software e Pesquisa (P&D). Meu foco não é apenas escrever código, mas desenhar arquiteturas sustentáveis (DDD, Clean Arch) que suportam a evolução do produto.",
+            bio_text_2: "Tenho experiência sólida no desenvolvimento Backend (Java/Python) e uma paixão por transformar dados em inteligência utilizando Machine Learning. Valorizo processos ágeis (Kanban) e o ambiente Linux como base para produtividade.",
+            skills_title: "Arsenal Tecnológico",
             btn_cv: "Baixar Currículo",
+
             timeline: {
-               title: "Minha Trajetória",
-               edu_1_date: "2021 - 2024",
-               edu_1_title: "Ciência da Computação",
-               edu_1_desc: "Universidade XYZ - Foco em Algoritmos e Estrutura de Dados.",
+               title: "Minha Jornada",
+               work_4_date: "2025 - Presente",
+               work_4_title: "Pesquisador de P&D (Dell/PUCRS)",
+               work_4_title_short: "P&D Dell",
+               work_4_desc: "Atuação no Centro de Inovação em projetos de Pesquisa & Desenvolvimento. Foco em criar soluções tecnológicas inovadoras alinhando demandas da indústria com rigor acadêmico.",
 
-               work_1_date: "2023 - 2024",
-               work_1_title: "Estudos em Sistemas Operacionais",
-               work_1_desc: "Desenvolvimento de módulos de kernel Linux e escalonadores (SSTF).",
+               work_3_date: "2024 - 2025",
+               work_3_title: "Bolsista PET-Informática (PUCRS)",
+               work_3_desc: "Membro do Programa de Educação Tutorial. Atuei no tripé universitário (ensino, pesquisa e extensão), organizando eventos técnicos e mentorando alunos iniciantes.",
 
-               work_2_date: "2024 - Presente",
-               work_2_title: "Desenvolvedor Full Stack",
-               work_2_desc: "Criação de aplicações web modernas com React, TypeScript e Java.",
+               work_2_date: "2023 - 2024",
+               work_2_title: "Aprofundamento Técnico (Alura)",
+               work_2_desc: "Imersão em stack moderna. Conclusão de formações intensivas em ecossistema Java (Spring), Frontend (React) e Arquitetura de Software.",
+
+               edu_1_date: "2023 - Presente",
+               edu_1_title: "Ciência da Computação (PUCRS)",
+               edu_1_desc: "Graduando com bolsa integral por mérito acadêmico. Foco em fundamentos da computação, algoritmos avançados e sistemas operacionais.",
             }
-         },
+         }
       }
    },
    en: {
@@ -110,25 +115,30 @@ const resources = {
          about_page: {
             title: "About",
             subtitle: "Me",
-            bio_title: "Who I am",
-            bio_text_1: "I am a developer passionate about operating systems, software architecture, and robust solutions. My focus is on creating applications that not only work but are scalable and efficient.",
-            bio_text_2: "When I'm not coding in Java or configuring Linux kernels, I'm studying formal methods and new technologies to sharpen my toolkit.",
+            bio_title: "Software Engineering & Research",
+            bio_text_1: "I work at the intersection of Software Engineering and Research (R&D). My focus is not just writing code, but designing sustainable architectures (DDD, Clean Arch) that support product evolution.",
+            bio_text_2: "I have solid experience in Backend development (Java/Python) and a passion for turning data into intelligence using Machine Learning. I value agile processes (Kanban) and the Linux environment as a productivity baseline.",
             skills_title: "Tech Stack",
-            timeline_title: "My Journey",
             btn_cv: "Download CV",
+
             timeline: {
                title: "My Journey",
-               edu_1_date: "2021 - 2024",
-               edu_1_title: "Computer Science",
-               edu_1_desc: "XYZ University - Focus on Algorithms and Data Structures.",
 
-               work_1_date: "2023 - 2024",
-               work_1_title: "Operating Systems Studies",
-               work_1_desc: "Development of Linux kernel modules and schedulers (SSTF).",
+               work_4_date: "2025 - Present",
+               work_4_title: "R&D Researcher (Dell/PUCRS)",
+               work_4_desc: "Working at the Innovation Center on Research & Development projects. Focus on creating innovative technological solutions aligning industry demands with academic rigor.",
 
-               work_2_date: "2024 - Present", // <--- Change to 'Present'
-               work_2_title: "Full Stack Developer",
-               work_2_desc: "Building modern web apps with React, TypeScript and Java.",
+               work_3_date: "2024 - 2025",
+               work_3_title: "PET-Informatics Scholar (PUCRS)",
+               work_3_desc: "Member of the Tutorial Education Program. Worked on teaching, research, and community outreach, organizing technical events and mentoring freshmen.",
+
+               work_2_date: "2023 - 2024",
+               work_2_title: "Technical Specialization (Alura)",
+               work_2_desc: "Deep dive into modern stack. Completed intensive tracks in Java ecosystem (Spring), Frontend (React), and Software Architecture.",
+
+               edu_1_date: "2023 - Present",
+               edu_1_title: "B.S. in Computer Science (PUCRS)",
+               edu_1_desc: "Full scholarship student based on academic merit. Focus on computer science fundamentals, advanced algorithms, and operating systems.",
             }
          },
       }
