@@ -27,9 +27,9 @@ const resources = {
             professional: "Projeto Profissional"
          },
          projects_data: {
-            linux: {
-               title: "Escalonador Linux Kernel",
-               description: "Implementação de algoritmo SSTF via módulo de kernel para otimização de I/O."
+            router_sim: {
+               title: "Simulador de Roteamento Distribuído",
+               description: "Sistema que simula uma rede dinâmica via UDP. Realiza descoberta automática de vizinhos, encaminhamento de mensagens (hop-by-hop) e recuperação de falhas, utilizando arquitetura Multithread segura."
             },
             portfolio: {
                title: "Portfólio Interativo",
@@ -97,9 +97,9 @@ const resources = {
             professional: "Professional Work"
          },
          projects_data: {
-            linux: {
-               title: "Linux Kernel Scheduler",
-               description: "Implementation of SSTF algorithm via kernel module for I/O optimization."
+            router_sim: {
+               title: "Distributed Routing Simulator",
+               description: "System simulating a dynamic network via UDP. Features automatic neighbor discovery, hop-by-hop message forwarding, and fault recovery, utilizing a thread-safe Multithreaded architecture."
             },
             portfolio: {
                title: "Interactive Portfolio",

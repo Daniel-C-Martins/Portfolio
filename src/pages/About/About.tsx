@@ -74,8 +74,7 @@ export function About() {
         <div className="relative group mx-auto w-full max-w-md">
           <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-2xl blur opacity-25 group-hover:opacity-75 transition duration-1000"></div>
           <div className="relative aspect-square rounded-2xl overflow-hidden border border-zinc-800 bg-zinc-900">
-            {/* ⚠️ Troque pela sua foto real */}
-            <img src={profile} alt="Profile" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" />
+            <img src={profile} alt="Profile" className="w-full h-full" />
           </div>
         </div>
 
@@ -123,13 +122,15 @@ export function About() {
           {timelineData.map((item, index) => (
             <div key={index} className="relative flex items-start group">
 
+              {/* Bolinha (Ícone) */}
               <div className="absolute left-0 top-0 flex items-center justify-center w-10 h-10 rounded-full bg-zinc-900 border border-zinc-700 group-hover:border-blue-500 group-hover:bg-blue-500/10 transition-colors duration-300 z-10 shadow-lg shadow-black">
                 <div className="text-zinc-400 group-hover:text-blue-500 transition-colors">
                   {item.icon}
                 </div>
               </div>
 
-              <div className="ml-16 bg-zinc-900/30 p-6 rounded-xl border border-zinc-800 hover:border-zinc-700 transition-colors w-full hover:bg-zinc-900/50">
+              {/* Card de Conteúdo */}
+              <div className="relative z-10 ml-16 bg-zinc-900 p-6 rounded-xl border border-zinc-800 hover:border-zinc-700 transition-colors w-full hover:bg-zinc-800">
                 <span className="inline-block px-3 py-1 mb-2 text-xs font-semibold tracking-wider text-blue-400 uppercase bg-blue-500/10 rounded-full border border-blue-500/20">
                   {t(item.dateKey)}
                 </span>

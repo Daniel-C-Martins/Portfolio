@@ -16,8 +16,6 @@ interface ProjectCardProps {
 export function ProjectCard({ project }: ProjectCardProps) {
   const { t } = useTranslation();
 
-  // Configuração visual para cada tipo de projeto
-  // As chaves devem ser exatamente iguais ao type ProjectType ('academic', 'personal', 'professional')
   const typeConfig = {
     academic: {
       icon: <GraduationCap size={14} />,

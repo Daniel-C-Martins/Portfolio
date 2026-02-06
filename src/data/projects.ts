@@ -1,15 +1,16 @@
 import type { Project } from '@/types/Project';
+import tfredes from "@/assets/tfredes.png";
 
 export const projectsData: Project[] = [
    {
       id: 1,
-      titleKey: "projects_data.linux.title",
-      descriptionKey: "projects_data.linux.description",
-      techs: ["C", "Linux Kernel", "Make"],
+      titleKey: "projects_data.router_sim.title",
+      descriptionKey: "projects_data.router_sim.description",
+      techs: ["Python", "UDP Sockets", "Threading", "Mutex/Lock"],
       categories: ["Systems", "Backend"],
       type: "academic",
-      repoLink: "https://github.com/seu-user/repo",
-      image: "https://images.unsplash.com/photo-1629654297299-c8506221ca97?q=80&w=1000&auto=format&fit=crop"
+      repoLink: "https://github.com/Daniel-C-Martins/Network_Router_Simulator.git",
+      image: tfredes,
    },
    {
       id: 2,
