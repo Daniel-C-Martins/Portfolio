@@ -31,9 +31,9 @@ const resources = {
                title: "Simulador de Roteamento Distribuído",
                description: "Sistema que simula uma rede dinâmica via UDP. Realiza descoberta automática de vizinhos, encaminhamento de mensagens (hop-by-hop) e recuperação de falhas, utilizando arquitetura Multithread segura."
             },
-            portfolio: {
-               title: "Portfólio Interativo",
-               description: "Site pessoal com arquitetura escalável, i18n e design moderno."
+            gobblet_ai: {
+               title: "IA para Gobblet (Nhac-Nhac)",
+               description: "Implementação do jogo de estratégia Gobblet com uma IA adversária desafiadora. Utiliza algoritmos de Teoria dos Jogos (Minimax com Poda Alpha-Beta e Iterative Deepening) e Multithreading para processamento não-bloqueante na interface gráfica."
             },
          },
          projects_page: {
@@ -101,10 +101,10 @@ const resources = {
                title: "Distributed Routing Simulator",
                description: "System simulating a dynamic network via UDP. Features automatic neighbor discovery, hop-by-hop message forwarding, and fault recovery, utilizing a thread-safe Multithreaded architecture."
             },
-            portfolio: {
-               title: "Interactive Portfolio",
-               description: "Personal website with scalable architecture, i18n and modern design."
-            }
+            gobblet_ai: {
+               title: "Gobblet AI (Tic-Tac-Toe Variant)",
+               description: "Strategic Gobblet game implemented with a challenging adversarial AI. Uses Game Theory algorithms (Minimax with Alpha-Beta Pruning and Iterative Deepening) and Multithreading for non-blocking processing in the GUI."
+            },
          },
          projects_page: {
             title: "My",
