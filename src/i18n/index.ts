@@ -35,6 +35,26 @@ const resources = {
                title: "IA para Gobblet (Nhac-Nhac)",
                description: "Implementação do jogo de estratégia Gobblet com uma IA adversária desafiadora. Utiliza algoritmos de Teoria dos Jogos (Minimax com Poda Alpha-Beta e Iterative Deepening) e Multithreading para processamento não-bloqueante na interface gráfica."
             },
+            sniffer: {
+               title: "Monitor de Rede via Túnel (Raw Sockets)",
+               description: "Ferramenta de análise de tráfego em tempo real operando sobre uma infraestrutura de tunelamento customizada em C. Utiliza Raw Sockets em Python para interceptar, decodificar (L3-L7) e logar pacotes em uma interface gráfica."
+            },
+            box_nesting: {
+               title: "Algoritmo de Encaixe de Caixas (Grafos)",
+               description: "Solução algorítmica para o problema de empilhamento dimensional (Nesting Boxes). Modela restrições como um Grafo Acíclico Dirigido (DAG) e utiliza Ordenação Topológica para encontrar o Caminho Máximo com complexidade O(n²)."
+            },
+            curriculum_matrix: {
+               title: "Matriz Curricular Interativa (PUCRS)",
+               description: "Aplicação Full Stack desenvolvida para modernizar a visualização de pré-requisitos acadêmicos. Frontend interativo em React/TypeScript e Backend robusto em Java Spring Boot, arquitetado com Clean Architecture e SOLID."
+            },
+            portfolio_v2: {
+               title: "Portfólio Pessoal Interativo",
+               description: "SPA moderna desenvolvida para apresentar minha trajetória. Construída com React, TypeScript e Tailwind CSS, conta com internacionalização completa (i18n), componentes dinâmicos (como o Terminal) e design totalmente responsivo."
+            },
+            app_subscriptions: {
+               title: "Gerenciador de Assinaturas (Clean Arch)",
+               description: "API robusta para gestão de assinaturas e pagamentos de apps. Arquitetada estritamente com Clean Architecture para isolar Regras de Negócio (Use Cases) de frameworks e banco de dados."
+            },
          },
          projects_page: {
             title: "Meus",
@@ -105,6 +125,27 @@ const resources = {
                title: "Gobblet AI (Tic-Tac-Toe Variant)",
                description: "Strategic Gobblet game implemented with a challenging adversarial AI. Uses Game Theory algorithms (Minimax with Alpha-Beta Pruning and Iterative Deepening) and Multithreading for non-blocking processing in the GUI."
             },
+            sniffer: {
+               title: "Network Traffic Sniffer (Raw Sockets)",
+               description: "Real-time traffic analysis tool running over a custom C tunneling infrastructure. Uses Python Raw Sockets to intercept, decode (L3-L7), and log packets via a graphical interface."
+            },
+            box_nesting: {
+               title: "Box Nesting Algorithm (Graph Theory)",
+               description: "Algorithmic solution for the dimensional stacking problem. Models constraints as a Directed Acyclic Graph (DAG) and applies Topological Sort to find the Longest Path with O(n²) complexity."
+            },
+            curriculum_matrix: {
+               title: "Interactive Curriculum Matrix (PUCRS)",
+               description: "Full Stack application designed to modernize academic prerequisite visualization. Features an interactive React/TypeScript Frontend and a robust Java Spring Boot Backend, engineered with Clean Architecture and SOLID principles."
+            },
+            portfolio_v2: {
+               title: "Interactive Personal Portfolio",
+               description: "Modern SPA designed to showcase my career. Built with React, TypeScript, and Tailwind CSS, featuring full internationalization (i18n), dynamic components (like the Terminal), and fully responsive design."
+            },
+            app_subscriptions: {
+               title: "App Subscription Manager (Clean Arch)",
+               description: "Robust API for app subscription and payment management. Architected strictly with Clean Architecture to isolate Business Rules (Use Cases) from frameworks and databases."
+            },
+
          },
          projects_page: {
             title: "My",
