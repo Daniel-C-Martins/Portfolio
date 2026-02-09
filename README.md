@@ -1,73 +1,48 @@
-# React + TypeScript + Vite
+# 👨‍💻 Daniel Martins - Interactive Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Project Status](https://img.shields.io/badge/status-active-success)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-Currently, two official plugins are available:
+Welcome to my personal portfolio repository! This project serves two main purposes: to showcase my journey as a Computer Science student and R&D Researcher, and to demonstrate my skills in modern Frontend development using **React** and **TypeScript**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 **Live Demo:** [Click here to visit](https://seu-usuario.github.io/nome-do-repositorio) *(Update this link after deploy)*
 
-## React Compiler
+## 🎯 Purpose
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This application was designed to be more than just a static CV. It is an interactive Single Page Application (SPA) that features:
 
-## Expanding the ESLint configuration
+* **Internationalization (i18n):** Full support for Portuguese (PT-BR) and English (EN), respecting user preferences.
+* **Dynamic Content:** Projects, timeline, and skills are structured as data, making updates easy.
+* **Responsive Design:** A fluid experience across mobile, tablet, and desktop devices.
+* **Modern UI/UX:** Dark mode aesthetic, smooth animations, and interactive elements.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+This project was built using the modern React ecosystem:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+* **Core:** [React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/)
+* **Build Tool:** [Vite](https://vitejs.dev/) (for blazing fast development)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Internationalization:** [i18next](https://www.i18next.com/) & [react-i18next](https://react.i18next.com/)
+* **Icons:** [Lucide React](https://lucide.dev/)
+* **Router:** React Router Dom
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 📂 Project Structure
+
+```bash
+src/
+├── assets/         # Static assets (images, fonts)
+├── components/     # Reusable UI components (TechMarquee, ProjectCard, etc.)
+├── data/           # Static data files (Projects list, Timeline info)
+├── i18n/           # Translation files (PT/EN configurations)
+├── pages/          # Main application pages (Home, About, Projects)
+└── App.tsx         # Main entry point and routing logic
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📬 Connect with Me
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+I am always open to discussing technology, research opportunities, or software engineering.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+* **LinkedIn:** [Daniel Martins](https://www.linkedin.com/in/seu-linkedin)
+* **GitHub:** [@Daniel-C-Martins](https://github.com/Daniel-C-Martins)
+* **Email:** [Your Email Here](mailto:seu-email@exemplo.com)
