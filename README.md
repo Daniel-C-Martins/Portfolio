@@ -5,7 +5,7 @@
 
 Welcome to my personal portfolio repository! This project serves two main purposes: to showcase my journey as a Computer Science student and R&D Researcher, and to demonstrate my skills in modern Frontend development using **React** and **TypeScript**.
 
-🌐 **Live Demo:** [Click here to visit](https://seu-usuario.github.io/nome-do-repositorio) *(Update this link after deploy)*
+🌐 **Live Demo:** [Click here to visit](https://seu-usuario.github.io/nome-do-repositorio) 
 
 ## 🎯 Purpose
 
@@ -45,4 +45,4 @@ I am always open to discussing technology, research opportunities, or software e
 
 * **LinkedIn:** [Daniel Martins](https://www.linkedin.com/in/seu-linkedin)
 * **GitHub:** [@Daniel-C-Martins](https://github.com/Daniel-C-Martins)
-* **Email:** [Your Email Here](mailto:seu-email@exemplo.com)
+* **Email:** [martins.daniel23@edu.pucrs.br](mailto:martins.daniel23@edu.pucrs.br)
