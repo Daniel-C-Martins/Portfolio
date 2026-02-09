@@ -15,6 +15,7 @@ import {
   Users
 } from 'lucide-react';
 import profile from "@/assets/profile.jpeg";
+import cvFile from "@/assets/cv.pdf";
 
 export function About() {
   const { t } = useTranslation();
@@ -89,8 +90,13 @@ export function About() {
             {t('about_page.bio_text_2')}
           </p>
           <div className="pt-4">
-            <a href="/cv.pdf" download className="inline-flex items-center gap-2 bg-zinc-100 text-zinc-900 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-bold transition-all duration-300 cursor-pointer">
-              <Download size={20} />{t('about_page.btn_cv')}
+            <a
+              href={cvFile}
+              download="Daniel_Martins_CV.pdf"
+              className="inline-flex items-center gap-2 bg-zinc-100 text-zinc-900 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-bold transition-all duration-300 cursor-pointer"
+            >
+              <Download size={20} />
+              {t('about_page.btn_cv')}
             </a>
           </div>
         </div>
