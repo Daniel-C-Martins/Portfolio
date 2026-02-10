@@ -56,7 +56,7 @@ export function Projects() {
          {/* Empty State (Caso não tenha projetos na categoria) */}
          {filteredProjects.length === 0 && (
             <div className="text-center py-20">
-               <p className="text-zinc-500 text-lg">Nenhum projeto encontrado nesta categoria ainda.</p>
+               <p className="text-zinc-500 text-lg">{t('projects.empty')}</p>
             </div>
          )}
       </div>

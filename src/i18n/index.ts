@@ -11,15 +11,16 @@ const resources = {
             about: "Sobre"
          },
          home: {
-            welcome: "Engenharia de Software & Inovação",
+            welcome: "Olá, sou o Daniel",
             role: "Desenvolvedor Full Stack & Pesquisador",
-            description: "Unindo arquitetura robusta (DDD, Clean Arch) com Inteligência Artificial. Desenvolvo soluções escaláveis usando Java, Python e React.",
+            description: "Desenvolvedor focado em entregar software escalável, legível e de alta qualidade. Atuo também como pesquisador em Cloud Computing, com forte interesse em Inteligência Artificial.",
             viewProjects: "Ver Portfolio"
          },
          projects: {
             title: "Meus",
             subtitle: "Projetos",
-            description: "Explore meus trabalhos em desenvolvimento de software e sistemas."
+            description: "Uma seleção de trabalhos desenvolvidos em contextos pessoais, acadêmicos e profissionais.",
+            empty: "Nenhum projeto encontrado nesta categoria."
          },
          project_types: {
             academic: "Projeto Acadêmico",
@@ -33,7 +34,7 @@ const resources = {
             },
             gobblet_ai: {
                title: "IA para Gobblet (Nhac-Nhac)",
-               description: "Implementação do jogo de estratégia Gobblet com uma IA adversária desafiadora. Utiliza algoritmos de Teoria dos Jogos (Minimax com Poda Alpha-Beta e Iterative Deepening) e Multithreading para processamento não-bloqueante na interface gráfica."
+               description: "Implementação do jogo de estratégia Gobblet com uma IA adversária. Utiliza algoritmos de Teoria dos Jogos (Minimax com Poda Alpha-Beta e Iterative Deepening) e Multithreading para processamento não-bloqueante na interface gráfica."
             },
             sniffer: {
                title: "Monitor de Rede via Túnel (Raw Sockets)",
@@ -52,23 +53,17 @@ const resources = {
                description: "SPA moderna desenvolvida para apresentar minha trajetória. Construída com React, TypeScript e Tailwind CSS, conta com internacionalização completa (i18n), componentes dinâmicos (como o Terminal) e design totalmente responsivo."
             },
             app_subscriptions: {
-               title: "Gerenciador de Assinaturas (Clean Arch)",
+               title: "Gerenciador de Assinaturas de Apps",
                description: "API robusta para gestão de assinaturas e pagamentos de apps. Arquitetada estritamente com Clean Architecture para isolar Regras de Negócio (Use Cases) de frameworks e banco de dados."
             },
-         },
-         projects_page: {
-            title: "Meus",
-            subtitle: "Projetos",
-            description: "Explore meus trabalhos em desenvolvimento de software e sistemas.",
-            empty: "Nenhum projeto encontrado nesta categoria."
          },
          about_page: {
             title: "Sobre",
             subtitle: "Mim",
             bio_title: "Engenharia de Software & Pesquisa",
-            bio_text_1: "Atuo na interseção entre Engenharia de Software e Pesquisa (P&D). Meu foco não é apenas escrever código, mas desenhar arquiteturas sustentáveis (DDD, Clean Arch) que suportam a evolução do produto.",
-            bio_text_2: "Tenho experiência sólida no desenvolvimento Backend (Java/Python) e uma paixão por transformar dados em inteligência utilizando Machine Learning. Valorizo processos ágeis (Kanban) e o ambiente Linux como base para produtividade.",
-            skills_title: "Arsenal Tecnológico",
+            bio_text_1: "Atuo na interseção entre Engenharia de Software e Pesquisa. Meu foco é entregar um trabalho bem feito: priorizo código legível e soluções escaláveis, garantindo que o software seja sustentável e fácil de manter.",
+            bio_text_2: "Na academia, sou pesquisador focado em Cloud Computing, com grande interesse em Inteligência Artificial. Tenho experiência sólida em Backend e valorizo o ambiente Linux como base para produtividade.",
+            skills_title: "Tecnologias",
             btn_cv: "Baixar Currículo",
 
             timeline: {
@@ -80,15 +75,15 @@ const resources = {
 
                work_3_date: "2024 - 2025",
                work_3_title: "Bolsista PET-Informática (PUCRS)",
-               work_3_desc: "Membro do Programa de Educação Tutorial. Atuei no tripé universitário (ensino, pesquisa e extensão), organizando eventos técnicos e mentorando alunos iniciantes.",
+               work_3_desc: "Membro do Programa de Educação Tutorial, atuando no tripé universitário (ensino, pesquisa e extensão). Desenvolvi projetos técnicos, apoiei nos processos seletivos e atuei como pesquisador voluntário no GRIN (Grupo de Redes, Infraestrutura e Computação em Nuvem).",
 
                work_2_date: "2023 - 2024",
                work_2_title: "Aprofundamento Técnico (Alura)",
-               work_2_desc: "Imersão em stack moderna. Conclusão de formações intensivas em ecossistema Java (Spring), Frontend (React) e Arquitetura de Software.",
+               work_2_desc: "Formações intensivas em Java, Python e C. Com foco em consolidar os conceitos da graduação e preencher lacunas técnicas, garantindo uma base de programação sólida.",
 
                edu_1_date: "2023 - Presente",
                edu_1_title: "Ciência da Computação (PUCRS)",
-               edu_1_desc: "Graduando com bolsa integral por mérito acadêmico. Foco em fundamentos da computação, algoritmos avançados e sistemas operacionais.",
+               edu_1_desc: "Bolsista integral pelo PROUNI, com reconhecimento por Mérito Acadêmico durante a graduação. Focado em consolidar a base da computação: algoritmos, estruturas de dados e teoria de sistemas.",
             }
          }
       }
@@ -101,15 +96,16 @@ const resources = {
             about: "About"
          },
          home: {
-            welcome: "Software Engineering & Innovation",
+            welcome: "Hello, I'm Daniel.",
             role: "Full Stack Developer & Researcher",
-            description: "Merging robust architecture (DDD, Clean Arch) with Artificial Intelligence. Building scalable solutions using Java, Python, and React.",
+            description: "Developer focused on delivering scalable, readable, and high-quality software. I also work as a researcher in Cloud Computing, with a strong interest in Artificial Intelligence.",
             viewProjects: "View Portfolio"
          },
          projects: {
             title: "My",
             subtitle: "Projects",
-            description: "Explore my work in software development and systems."
+            description: "A selection of work developed across personal, academic, and professional contexts.",
+            empty: "No projects found in this category."
          },
          project_types: {
             academic: "University Project",
@@ -123,7 +119,7 @@ const resources = {
             },
             gobblet_ai: {
                title: "Gobblet AI (Tic-Tac-Toe Variant)",
-               description: "Strategic Gobblet game implemented with a challenging adversarial AI. Uses Game Theory algorithms (Minimax with Alpha-Beta Pruning and Iterative Deepening) and Multithreading for non-blocking processing in the GUI."
+               description: "Strategic Gobblet game implemented with a adversarial AI. Uses Game Theory algorithms (Minimax with Alpha-Beta Pruning and Iterative Deepening) and Multithreading for non-blocking processing in the GUI."
             },
             sniffer: {
                title: "Network Traffic Sniffer (Raw Sockets)",
@@ -142,23 +138,17 @@ const resources = {
                description: "Modern SPA designed to showcase my career. Built with React, TypeScript, and Tailwind CSS, featuring full internationalization (i18n), dynamic components (like the Terminal), and fully responsive design."
             },
             app_subscriptions: {
-               title: "App Subscription Manager (Clean Arch)",
+               title: "App Subscription Manager",
                description: "Robust API for app subscription and payment management. Architected strictly with Clean Architecture to isolate Business Rules (Use Cases) from frameworks and databases."
             },
 
-         },
-         projects_page: {
-            title: "My",
-            subtitle: "Projects",
-            description: "Explore my work in software development and systems.",
-            empty: "No projects found in this category."
          },
          about_page: {
             title: "About",
             subtitle: "Me",
             bio_title: "Software Engineering & Research",
-            bio_text_1: "I work at the intersection of Software Engineering and Research (R&D). My focus is not just writing code, but designing sustainable architectures (DDD, Clean Arch) that support product evolution.",
-            bio_text_2: "I have solid experience in Backend development (Java/Python) and a passion for turning data into intelligence using Machine Learning. I value agile processes (Kanban) and the Linux environment as a productivity baseline.",
+            bio_text_1: "I work at the intersection of Software Engineering and Research. My focus is on delivering well-crafted work: I prioritize readable code and scalable solutions, ensuring software is sustainable and maintainable.",
+            bio_text_2: "In academia, I am a researcher focused on Cloud Computing, with a strong interest in Artificial Intelligence. I have solid Backend experience and value the Linux environment for productivity.",
             skills_title: "Tech Stack",
             btn_cv: "Download CV",
 
@@ -171,15 +161,15 @@ const resources = {
 
                work_3_date: "2024 - 2025",
                work_3_title: "PET-Informatics Scholar (PUCRS)",
-               work_3_desc: "Member of the Tutorial Education Program. Worked on teaching, research, and community outreach, organizing technical events and mentoring freshmen.",
+               work_3_desc: "Member of the Tutorial Education Program, working on the teaching, research, and extension triad. I developed technical projects, supported selection processes, and served as a volunteer researcher at GRIN (Research Group on Networks, Infrastructure, and Cloud Computing)..",
 
                work_2_date: "2023 - 2024",
                work_2_title: "Technical Specialization (Alura)",
-               work_2_desc: "Deep dive into modern stack. Completed intensive tracks in Java ecosystem (Spring), Frontend (React), and Software Architecture.",
+               work_2_desc: "Intensive coursework in Java, Python, and C. With a focus on consolidating undergraduate concepts and filling technical gaps, ensuring a solid programming foundation.",
 
                edu_1_date: "2023 - Present",
                edu_1_title: "B.S. in Computer Science (PUCRS)",
-               edu_1_desc: "Full scholarship student based on academic merit. Focus on computer science fundamentals, advanced algorithms, and operating systems.",
+               edu_1_desc: "Full PROUNI scholarship recipient, with Academic Merit recognition during the undergraduate program. Focused on consolidating computer science fundamentals: algorithms, data structures, and systems theory.",
             }
          },
       }
